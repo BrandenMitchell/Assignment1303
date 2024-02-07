@@ -64,10 +64,10 @@ pair<int,int> modify(int index,int new_val,int arr[], int count){
 
         }
     }
-    for (int i=0; i < count; i++){
-        cout<<"index: "<<i<<" number: "<<arr[i]<<endl; // this is here for testing just uncomment and you can see the new val is placed at old val index
+    // for (int i=0; i < count; i++){
+    //     cout<<"index: "<<i<<" number: "<<arr[i]<<endl; // this is here for testing just uncomment and you can see the new val is placed at old val index
 
-    }
+    // }
     return solution; //returns to user in a pair
 }
 int replace_remove(int index,int arr[], int &count){
