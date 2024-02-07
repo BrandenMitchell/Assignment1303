@@ -23,7 +23,8 @@ fourth SS youll see i added 420 and then right after added 699, they both appear
 -the replace_remove function requires an index to perform either function along with the array and the count(passed by reference
 for the remove part of function). Once called the function will ask you wether youd like to remove or replace prompting you to
 press 1 for remove or 2 for replace. 
-If one is selected then the function will create a temporary array in which to store
+
+If remove (1) is selected then the function will create a temporary array in which to store
 the values up to the index given then from that location, remove the index and shift the remaining elements down.
 (image in fifth SS)
 
