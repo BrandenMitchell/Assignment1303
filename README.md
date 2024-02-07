@@ -15,17 +15,19 @@ being the old value and the second being the new value, it is also printed to th
 3)void addInt(int number,int arr[],int &count);
 - this function adds an integer to the very end of the list, it updates the array count so that it can be added as many times
 as needed. The number you wish to add is passed along with the array and the count but by reference so that it can be updated.
-the function does not return anything but it does update the array and print the list to you for verification.
-(image in third SS)
+the function does not return anything but it does update the array and print the list to you for verification. In the third and
+fourth SS youll see i added 420 and then right after added 699, they both appear and have not replaced other values.
+(image in third and fourth SS)
 
 4)int replace_remove(int index,int arr[], int &count);
 -the replace_remove function requires an index to perform either function along with the array and the count(passed by reference
 for the remove part of function). Once called the function will ask you wether youd like to remove or replace prompting you to
-press 1 for remove or 2 for replace. If one is selected then the function will create a temporary array in which to store
+press 1 for remove or 2 for replace. 
+If one is selected then the function will create a temporary array in which to store
 the values up to the index given then from that location, remove the index and shift the remaining elements down.
-(image in fourth SS)
+(image in fifth SS)
 
 if replace is chosen (2) then it will simply replace the the element at given index with a 0.
-(image in fifth SS)
+(image in sixth SS)
 
 In both cases the list is printed for you convenience and conformation.
